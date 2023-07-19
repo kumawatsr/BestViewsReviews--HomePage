@@ -276,22 +276,31 @@ li {
 
 /* ================== Trending =================  */
 
-.heading {
-  height: 100px;
-  max-width: 100vw;
-  /* background-color: pink; */
+
+.trending{
   display: flex;
-  align-items: end;
+  justify-content: left;
+  align-items:end;
+  margin-left: 5%;
+  height: 90px;
+  width: 100%;
+  font-size: 1.2rem;
+  /* background-color: pink; */
   padding-bottom: 10px;
-  padding-left: 5%;
 }
+
+.t-txt {
+  margin-left: 5%;
+}
+
+
 
 /* ======================= items flex boxes ============  */
 
 .mrgbox {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 3% 1.4%;
+  gap: 2% 1.4%;
   margin-top: 2%;
   margin-left: 5%;
   margin-right: 5%;
@@ -300,7 +309,7 @@ li {
 }
 
 .box {
-  height: 275px;
+  height: 360px;
   width: 92%;
   /* background-color: aquamarine; */
   /* border: 2px solid black; */
@@ -321,8 +330,8 @@ li {
 }
 
 .b1 img {
-  width: 40%;
-  height: 80%;
+  width: 135px;
+  height: 135px;
   object-fit: cover;
 }
 
@@ -348,7 +357,7 @@ li {
 
 .b2-1 p {
   padding-left: 3px;
-  font-size: 0.8rem;
+  font-size: 1rem;
 }
 
 /*======================== b2-2 =================== */
@@ -364,8 +373,8 @@ li {
 }
 
 svg {
-  height: 110%;
-  width: 110%;
+  height: 88%;
+  width: 88%;
   /* background-color: violet; */
   display: flex;
   justify-content: right;
@@ -384,7 +393,7 @@ svg {
 
 #price-1 {
   font-size: 1.1rem;
-  font-weight: 500;
+  font-weight: 550;
   padding-right: 10px;
 }
 
@@ -423,12 +432,12 @@ svg {
 
 #all-options {
   height: 70%;
-  width: 55%;
-  background-color: #01a2e6;
-  color: white;
+  width: 60%;
+  background-color: white;
+  color: #2787f4;
   border-radius: 4px;
-  font-size: 1rem;
-  border: 0;
+  font-size: 0.9rem;
+  border: 1px solid #01a2e6;
   margin-right: 5%;
 }
 
@@ -655,18 +664,22 @@ svg {
   }
 
   /* ================== Trending =================  */
-
-  .heading {
-    height: 50px;
+  .trending{
+    display: flex;
+    justify-content: left;
+    align-items:end;
+    margin-left: 5%;
     width: 100%;
     /* background-color: pink; */
-    display: flex;
-    align-items: end;
     padding-bottom: 10px;
-    padding-left: 5%;
+    height: 60px;
     font-size: 0.7rem;
   }
-
+  
+  .t-txt {
+    margin-left: 5%;
+  }
+  
   /* ======================= items flex boxes ============  */
 
   .mrgbox {
@@ -701,8 +714,8 @@ svg {
   }
 
   .b1 img {
-    width: 70%;
-    height: 85%;
+    width: 100px;
+    height: 100px;
     object-fit: cover;
   }
 
@@ -774,7 +787,7 @@ svg {
 
   #price-1 {
     font-size: 0.7rem;
-    font-weight: 500;
+    font-weight: 600;
     padding-right: 10px;
   }
 
@@ -1041,15 +1054,20 @@ svg {
 
   /* ================== Trending =================  */
 
-  .heading {
-    height: 52px;
+  .trending{
+    display: flex;
+    justify-content: left;
+    align-items:end;
+    margin-left: 5%;
     width: 100%;
     /* background-color: pink; */
-    display: flex;
-    align-items: end;
     padding-bottom: 10px;
-    padding-left: 5%;
-    font-size: 0.74rem;
+    height: 75px;
+    font-size: 0.85rem;
+  }
+  
+  .t-txt {
+    margin-left: 5%;
   }
 
   /* ======================= items flex boxes ============  */
@@ -1066,7 +1084,7 @@ svg {
   }
 
   .box {
-    height: 275px;
+    height: 295px;
     width: 92%;
     /* background-color: aquamarine; */
     /* border: 2px solid black; */
@@ -1086,8 +1104,8 @@ svg {
   }
 
   .b1 img {
-    width: 50%;
-    height: 90%;
+    width: 120px;
+    height: 120px;
     object-fit: cover;
   }
 
@@ -1135,7 +1153,7 @@ svg {
   }
 
   .b2-2 p {
-    font-size: 0.85rem;
+    font-size: 0.78rem;
   }
 
   svg {
@@ -1159,7 +1177,7 @@ svg {
 
   #price-1 {
     font-size: 0.85rem;
-    font-weight: 500;
+    font-weight: 550;
     padding-right: 10px;
   }
 
@@ -1462,15 +1480,20 @@ svg {
 
   /* ================== Trending =================  */
 
-  .heading {
-    height: 60px;
-    width: 100%;
-    /* background-color: pink; */
+  .trending{
     display: flex;
-    align-items: end;
+    justify-content: left;
+    align-items:end;
+    margin-left: 5%;
+    width: 100%;
+    /* background-color: yellow; */
     padding-bottom: 10px;
-    padding-left: 5%;
-    font-size: 0.85rem;
+    height: 90px;
+    font-size: 0.95rem;
+  }
+  
+  .t-txt {
+    margin-left: 5%;
   }
 
   /* ======================= items flex boxes ============  */
@@ -1487,7 +1510,7 @@ svg {
   }
 
   .box {
-    height: 270px;
+    height: 280px;
     width: 92%;
     /* background-color: aquamarine; */
     /* border: 2px solid black; */
@@ -1507,8 +1530,8 @@ svg {
   }
 
   .b1 img {
-    width: 50%;
-    height: 90%;
+    width: 100px;
+    height: 100px;
     object-fit: cover;
   }
 
@@ -1556,12 +1579,12 @@ svg {
   }
 
   .b2-2 p {
-    font-size: 0.7rem;
+    font-size: 0.65rem;
   }
 
   svg {
-    height: 90%;
-    width: 90%;
+    height: 80%;
+    width: 80%;
     /* background-color: violet; */
     display: flex;
     justify-content: right;
@@ -1579,13 +1602,13 @@ svg {
   }
 
   #price-1 {
-    font-size: 0.85rem;
-    font-weight: 500;
+    font-size: 0.75rem;
+    font-weight: 550;
     padding-right: 10px;
   }
 
   #price-2 {
-    font-size: 0.77rem;
+    font-size: 0.7rem;
     font-weight: 300;
     padding-right: 10px;
     color: grey;
@@ -1593,7 +1616,7 @@ svg {
   }
 
   #price-3 {
-    font-size: 0.75rem;
+    font-size: 0.7rem;
     font-weight: 400;
     color: red;
   }
@@ -1883,15 +1906,20 @@ svg {
 
   /* ================== Trending =================  */
 
-  .heading {
-    height: 60px;
+  .trending{
+    display: flex;
+    justify-content: left;
+    align-items:end;
+    margin-left: 5%;
     width: 100%;
     /* background-color: pink; */
-    display: flex;
-    align-items: end;
     padding-bottom: 10px;
-    padding-left: 5%;
-    font-size: 0.85rem;
+    height: 90px;
+    font-size: 1rem;
+  }
+  
+  .t-txt {
+    margin-left: 5%;
   }
 
   /* ======================= items flex boxes ============  */
@@ -1928,8 +1956,8 @@ svg {
   }
 
   .b1 img {
-    width: 60%;
-    height: 75%;
+    width: 120px;
+    height: 120px;
     object-fit: cover;
   }
 
@@ -1954,7 +1982,7 @@ svg {
 
   .b2-1 p {
     /* padding-left: 3px; */
-    font-size: 0.9rem;
+    font-size: 0.80rem;
   }
 
   .b2 .b2-1 .fa-2xs {
@@ -1977,13 +2005,15 @@ svg {
   }
 
   .b2-2 p {
-    font-size: 0.8rem;
+    font-size: 0.75rem;
     padding-top: 2%;
+    text-align: left;
+    justify-content: top;
   }
 
   svg {
-    height: 92%;
-    width: 92%;
+    height: 85%;
+    width: 85%;
     /* background-color: violet; */
     display: flex;
     justify-content: right;
@@ -2001,13 +2031,13 @@ svg {
   }
 
   #price-1 {
-    font-size: 0.87rem;
-    font-weight: 500;
+    font-size: 0.85rem;
+    font-weight: 550;
     padding-right: 10px;
   }
 
   #price-2 {
-    font-size: 0.78rem;
+    font-size: 0.75rem;
     font-weight: 300;
     padding-right: 10px;
     color: grey;
@@ -2015,7 +2045,7 @@ svg {
   }
 
   #price-3 {
-    font-size: 0.87rem;
+    font-size: 0.85rem;
     font-weight: 400;
     color: red;
   }
@@ -2353,15 +2383,20 @@ li {
 
   /* ================== Trending =================  */
 
-  .heading {
-    height: 70px;
-    width: 100%;
-    /* background-color: pink; */
+  .trending{
     display: flex;
-    align-items: end;
+    justify-content: left;
+    align-items:end;
+    margin-left: 5%;
+    width: 100%;
+    /* background-color:pink; */
     padding-bottom: 10px;
-    padding-left: 5%;
-    font-size: 0.9rem;
+    height: 90px;
+    font-size: 1.1rem;
+  }
+  
+  .t-txt {
+    margin-left: 5%;
   }
 
   /* ======================= items flex boxes ============  */
@@ -2378,7 +2413,7 @@ li {
   }
 
   .box {
-    height: 285px;
+    height: 360px;
     width: 100%;
     /* background-color: aquamarine; */
     /* border: 2px solid black; */
@@ -2398,8 +2433,8 @@ li {
   }
 
   .b1 img {
-    width: 45%;
-    height: 75%;
+    width: 130px;
+    height: 130px;
     object-fit: cover;
   }
 
@@ -2424,7 +2459,7 @@ li {
 
   .b2-1 p {
     /* padding-left: 3px; */
-    font-size: 1.1rem;
+    font-size: 1rem;
   }
 
   .b2 .b2-1 .fa-2xs {
@@ -2452,8 +2487,8 @@ li {
   }
 
   svg {
-    height: 97%;
-    width: 97%;
+    height: 80%;
+    width: 80%;
     /* background-color: violet; */
     display: flex;
     justify-content: right;
@@ -2471,8 +2506,8 @@ li {
   }
 
   #price-1 {
-    font-size: 0.9rem;
-    font-weight: 500;
+    font-size: 0.95rem;
+    font-weight: 700;
     padding-right: 10px;
   }
 
@@ -2485,7 +2520,7 @@ li {
   }
 
   #price-3 {
-    font-size: 0.9rem;
+    font-size: 0.95rem;
     font-weight: 400;
     color: red;
   }
@@ -2505,7 +2540,7 @@ li {
     background-color: #01a2e6;
     color: white;
     border-radius: 4px;
-    font-size: 0.82rem;
+    font-size: 0.9rem;
     border: 0;
   }
 
@@ -2515,7 +2550,7 @@ li {
     background-color: white;
     color: #2787f4;
     border-radius: 4px;
-    font-size: 0.75rem;
+    font-size: 0.88rem;
     border: 1px solid #01a2e6;
     margin-right: 5%;
   }
