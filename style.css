@@ -369,7 +369,7 @@ li {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  font-size: 0.95rem;
+  font-size: 16px;
 }
 
 svg {
@@ -1153,7 +1153,7 @@ svg {
   }
 
   .b2-2 p {
-    font-size: 0.78rem;
+    font-size: 12px;
   }
 
   svg {
@@ -1579,7 +1579,7 @@ svg {
   }
 
   .b2-2 p {
-    font-size: 0.65rem;
+    font-size: 12px;
   }
 
   svg {
@@ -2005,7 +2005,7 @@ svg {
   }
 
   .b2-2 p {
-    font-size: 0.75rem;
+    font-size: 12px;
     padding-top: 2%;
     text-align: left;
     justify-content: top;
@@ -2482,7 +2482,7 @@ li {
   }
 
   .b2-2 p {
-    font-size: 0.9rem;
+    font-size: 16px;
     padding-top: 2%;
   }
 
